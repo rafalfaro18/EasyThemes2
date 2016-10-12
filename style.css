@@ -1,0 +1,254 @@
+/* 
+*
+*  Theme Name: 	Easy Themes 2
+* Description: 	Easy Themes build skills
+* Author: Your Name
+* Version: 	1.0
+*/
+
+/* ----------------------------------------------------------------------- */
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 16px;
+      letter-spacing: 4px;
+  }
+  .navbar-nav  li a:hover {
+      color: #97b0d8 !important;
+  }
+
+
+
+
+p {font-size: 16px;}
+
+
+
+.home-header {
+  height: 100vh;
+ background: 
+    /* use gradient to darken image to show text better */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.0), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    /* bottom, image */
+    url(images/okanaganlake.jpg);
+
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  text-align: center;
+}
+
+@font-face {
+   font-family: 'Great Vibes';
+   src: url(fonts/GreatVibes-Regular.otf);
+}
+
+
+ .header-text, h5, h3, h1{
+	font-size:60px;
+	font-family:'Great Vibes', serif;
+	}
+	
+ .black{
+	 color: black;
+ }
+ .white{
+	color: white; 
+ }	
+	
+ .yellow{
+	color:yellow;
+}
+	
+ .dark-font{
+font-family:'Great Vibes', serif;
+color: black;	
+ }
+
+ .bg1 { 
+        color: #333;
+  }
+      
+ .bg2 { 
+      background-color: #2c2c33; /* Blue Black */
+      color: #ddd;
+  }
+  .bg3 { 
+      background-color: #99999f; /* Light Grey Blue */
+      color: #fff;
+  }
+  
+  .bg4 { 
+      background-color: black; /* Black - footer */
+      color: #fff;
+	  padding-bottom: 60px;
+	
+  }
+  
+  .container-fluid {
+     padding-top:20px;
+      padding-bottom: 15px; 
+  }
+
+
+  .page-padding{
+	  padding: 60px;
+  }
+
+
+h4{
+	color: white;
+	font-family: sanserif;
+	font-size: 24px;
+	
+	}
+
+
+
+
+@media only screen and (min-width: 540px) { /* -----media query----- */
+  /*----- flexbox -----*/
+  .flex-3columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+   -moz-column-count: 2; /* Firefox */ 
+   column-count: 2; -webkit-column-gap: 40px; /* Chrome, Safari, Opera */ 
+   -moz-column-gap: 40px; /* Firefox */
+   column-gap: 40px;/* Chrome, Safari, Opera */
+   /*-webkit-column-rule: 1px outset #999;
+    -moz-column-rule: 1px outset #999; 
+     column-rule: 1px outset #999; */ 
+   } /* -- flex-3columns -- */
+  } /* -- media query -- */
+   
+ 
+ 
+
+@media only screen and (min-width: 992px){ /* -----media query----- */
+ /* ----- 12 COLUMN LAYOUT ----- */
+  .flex-3columns {
+   -webkit-column-count: 3; /* Chrome, Safari, Opera */ 
+   -moz-column-count: 3; /* Firefox */ 
+   column-count: 3; 
+   } 
+ } /* -----media query----- */
+ 
+ /* remove bullet from widget ul */
+  .widget {list-style: none; }
+  
+
+
+/* --------------------- copyright -----------------------------------*/
+.copy {
+	text-align: right;
+	margin-top: 40px;
+	color: grey;
+}
+
+/* -------------------- Image Title ---------------------------------- */
+
+ .image-title{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.text-center{
+	 
+	  text-align:center;
+	  }
+
+
+/* --------------------- Padding and Margins --------------------------*/
+  .logo {
+	  padding-top: 14px;
+	  padding-left: 20px;
+	   }
+	   
+  .padding {padding:14px ;}
+  
+  .bigger-margin{ margin: 24px;}
+  
+  .left-padding{ padding-left: 80px;}
+
+  .pic-padding{ padding:2px;}
+
+section { padding-bottom: 50px;}
+
+.banner{
+	background-color: black;
+	padding-left: 30px;
+	margin-bottom: 80px;
+	padding-top:100px;
+	color: white;
+}
+
+.margin150{
+margin-top:80px ;	
+margin-bottom:160px;
+}
+.column-margin{
+margin-top:30px ;	
+margin-bottom:80px;	
+}
+
+.padding{ padding: 20px;}
+
+.entry-header{ padding-top: 20px;}
+
+.post-image {margin-bottom: 20px;}
+
+.comment-margin{margin-top: 40px;}
+
+.content-margin{margin-bottom: 40px;}
+
+.no-banner{margin-top: 80px; }
+
+
+
+/* =================== Remove Search Box "Search For:" text =============== */
+
+#searchform .screen-reader-text {
+display:none;
+}
+
+/* =================== Wiggle Class =============== */
+
+
+@-ms-keyframes wiggle{0%{-ms-transform:rotate(3deg);}50%{-ms-transform:rotate(-3deg);}100%{-ms-transform:rotate
+
+(3deg);}}
+@-moz-keyframes wiggle{0%{-moz-transform:rotate(3deg);}50%{-moz-transform:rotate(-3deg);}100%{-moz-transform:rotate
+
+(3deg);}}
+@-webkit-keyframes wiggle{0%{-webkit-transform:rotate(3deg);}50%{-webkit-transform:rotate(-3deg);}100%{-webkit-
+
+transform:rotate(3deg);}}
+@keyframes wiggle{0%{transform:rotate(3deg);}50%{transform:rotate(-3deg);}100%{transform:rotate(3deg);}}
+.wiggle:hover{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle 
+
+.3s 2;}
+
+/*  ========== End Wiggle Class =========  */
